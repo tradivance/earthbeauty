@@ -1,4 +1,4 @@
-# /seo-3-check
+# /note-3-check
 
 完成した記事の品質チェックを実行するスキル。
 
@@ -12,7 +12,7 @@
 - `articles/` 配下の記事一覧を表示
 - チェック対象の記事を選択してもらう
 
-または、直前に `/seo-2-write` で生成した記事を自動で対象にする。
+または、直前に `/note-2-write` で生成した記事を自動で対象にする。
 
 ### Step 2: 文字数基準の確認
 
@@ -64,5 +64,5 @@ python tools/note-api/quality_check.py articles/{slug}/article.md [--min-chars N
 
 ## 注意事項
 - 品質チェックはnote入稿前に必ず実行する
-- `/seo-start`（一括実行）でも自動的にこのステップが実行される
+- `/note-start`（一括実行）でも自動的にこのステップが実行される
 - 修正時に見出し構造は変更しない

@@ -9,18 +9,18 @@ Claude Codeで動くSEO記事作成システム。キーワードグルーピン
 - **noteアカウント**: https://note.com/earth_beauty22
 
 ## ワークフロー
-1. `/seo-start` — 新しい記事のプランニングから入稿まで一気通貫
-2. `/seo-1-plan` — 記事構成を策定
-3. `/seo-2-write` — 記事を執筆
-4. `/seo-3-check` — 品質チェック
-5. `/seo-4-publish` — note.comに下書き保存
+1. `/note-start` — 新しい記事のプランニングから入稿まで一気通貫
+2. `/note-1-plan` — 記事構成を策定
+3. `/note-2-write` — 記事を執筆
+4. `/note-3-check` — 品質チェック
+5. `/note-4-publish` — note.comに下書き保存
 
 ## フォルダ構成
 ```
 earthbeauty/
 ├── CLAUDE.md              # このファイル
 ├── README.md              # セットアップガイド
-├── .claude/commands/      # スキル定義（seo-*）
+├── .claude/commands/      # スキル定義（note-*）
 ├── config/
 │   ├── site.md            # サイト情報
 │   ├── target.md          # ターゲット像（ペルソナ含む）

@@ -4,7 +4,7 @@
 
 ## 使い方
 - `.md` ファイルで参考記事の文体サンプルを追加してください
-- `/seo-start` や `/seo-2-write` 実行時に自動で読み込まれます
+- `/note-start` や `/note-2-write` 実行時に自動で読み込まれます
 - ファイル名の例: `tone-sample-share-salon.md`, `published-article-01.md`
 
 ## 収録コンテンツ
