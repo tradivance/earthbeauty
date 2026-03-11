@@ -1,0 +1,6 @@
+{
+  "_comment": "このファイルを config.json にリネームして、各値を設定してください。",
+  "email": "note.comのメールアドレス",
+  "password": "note.comのパスワード",
+  "account_url": "https://note.com/earth_beauty22"
+}
